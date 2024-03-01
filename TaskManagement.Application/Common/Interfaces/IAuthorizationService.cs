@@ -1,5 +1,5 @@
 ﻿using ErrorOr;
-using TaskManagement.Application.Common.Security.Requests;
+using TaskManagement.Application.Common.Security.Request;
 
 namespace TaskManagement.Application.Common.Interfaces;
 public interface IAuthorizationService

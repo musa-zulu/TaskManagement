@@ -2,7 +2,7 @@
 using MediatR;
 using System.Reflection;
 using TaskManagement.Application.Common.Interfaces;
-using TaskManagement.Application.Common.Security.Requests;
+using TaskManagement.Application.Common.Security.Request;
 
 namespace TaskManagement.Application.Common.Behaviors;
 public class AuthorizationBehavior<TRequest, TResponse>(

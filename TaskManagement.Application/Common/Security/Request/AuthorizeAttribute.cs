@@ -1,4 +1,4 @@
-﻿namespace TaskManagement.Application.Common.Security.Requests;
+﻿namespace TaskManagement.Application.Common.Security.Request;
 
 [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
 public class AuthorizeAttribute : Attribute
