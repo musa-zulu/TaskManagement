@@ -1,12 +1,9 @@
-﻿using ErrorOr;
-using FluentAssertions;
-using MediatR;
+﻿using MediatR;
 using NSubstitute;
 using TaskManagement.Application.Common.Behaviors;
 using TaskManagement.Application.Common.Security.Request;
 using TestCommon.TestConstants;
 using TestCommon.TestUtilities.NSubstitute;
-using Xunit;
 using AuthorizeAttribute = TaskManagement.Application.Common.Security.Request.AuthorizeAttribute;
 using IAuthorizationService = TaskManagement.Application.Common.Interfaces.IAuthorizationService;
 
